@@ -11,6 +11,8 @@
 |
 */
 
+use Symfony\Component\HttpFoundation\Response;
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -19,4 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
 
-Route::view('/admin', '/admin/dashboard')->name('admin_dashboard');
+Route::get('/admin', function () {
+    return view('/admin/dashboard');
+})->name('admin_dashboard')->middleware(['auth', 'admin']);
+
