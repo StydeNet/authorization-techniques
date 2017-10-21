@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home')->middleware('auth');
+
+Route::view('/change-password', 'auth.passwords.change-password')->name('change_password')->middleware('auth');
