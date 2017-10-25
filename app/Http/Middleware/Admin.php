@@ -16,7 +16,7 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-        if (! auth()->user()->admin) {
+        if (! optional($request->user())->isAdmin()) {
             throw new \Illuminate\Auth\Access\AuthorizationException;
         }
 
