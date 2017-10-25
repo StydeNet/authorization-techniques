@@ -23,26 +23,15 @@ automatizadas con PHPUnit y TDD según convenga.
 3. [Definiendo el rol de acceso de administrador con TDD](https://styde.net/definiendo-el-rol-de-acceso-de-administrador-con-tdd-en-laravel/) - 11:20
 4. [Creación del Middleware Admin](https://styde.net/creacion-del-middleware-admin-para-proteger-el-area-de-administracion/) - 19:30
 5. [Refactorizando a grupos de rutas](https://styde.net/refactorizando-a-grupos-de-rutas-en-laravel/) - 12:50
+6. [Prevenir que usuarios no autorizados descubran URLs y módulos](https://styde.net/prevenir-que-usuarios-no-autorizados-descubran-las-urls-y-modulos-del-administrador/) - 15:55
 
-### Otros cursos
+### En Styde.net también puedes aprender a:
 
-**Laravel desde cero**
-- [Programación orientada a objetos](https://styde.net/curso-de-programacion-orientada-a-objetos-con-php/)
-- [Primeros pasos con Laravel 5.*](https://styde.net/curso-primeros-pasos-con-laravel-5/)
-- [Curso de Laravel 5.1](https://styde.net/curso-introductorio-laravel-5-1/)
-- [Crea una aplicación con Laravel 5.3](https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/)
-- [Curso básico de Eloquent ORM](https://styde.net/curso-basico-de-eloquent-orm-con-laravel-5-1/)
-
-**Laravel y PHP avanzado**
-- [Curso de administración de servidores para PHP y Laravel](https://styde.net/curso-configuracion-administracion-de-servidores-php-laravel/)
-- [Curso avanzado de Eloquent ORM](https://styde.net/curso-avanzado-de-eloquent-orm/)
-- [Crea componentes para PHP](https://styde.net/curso-crea-componentes-para-php-y-laravel/)
-
-**Otras tecnologías**
-- [Curso de Vue.js 2](https://styde.net/curso-de-vue-2/)
-- [Curso de Gulp](https://styde.net/curso-gulp-y-herramientas-de-automatizacion/)
--	[Curso de Sass](https://styde.net/curso-de-sass/)
-- [Curso de Git](https://styde.net/curso-de-git/)
-- [Curso básico de Terminal](https://styde.net/curso-basico-de-terminal/)
+- Programar mejor con el [Curso de programación orientada a objetos con PHP](https://styde.net/curso-de-programacion-orientada-a-objetos-con-php/)
+- Crear páginas web interactivas en el [Curso de Vue 2](https://styde.net/curso-de-vue-2/)
+- Manejar mejor tu terminal con el [Curso básico de terminal](https://styde.net/curso-basico-de-terminal/)
+- Controlar las versiones de tu proyecto con el [Curso de Git y GitHub](https://styde.net/curso-de-git/)
+- Escribir CSS de manera eficiente con el [Curso de Sass a fondo](https://styde.net/curso-de-sass/)
+- Y [mucho más](https://styde.net/cursos/)
 
 © 2016 - 2017 [Styde.net](https://styde.net/)
