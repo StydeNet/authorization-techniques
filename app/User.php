@@ -36,4 +36,9 @@ class User extends Authenticatable
     {
         return auth()->user()->role == 'seller';
     }
+
+    public function isClient()
+    {
+        return auth()->user()->role == 'client';
+    }
 }

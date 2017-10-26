@@ -14,7 +14,7 @@ class AdminEventsTest extends TestCase
     function admins_can_visit_the_admin_events_page()
     {
         $admin = factory(User::class)->create([
-            'admin' => true
+            'role' => 'admin'
         ]);
 
         $this->actingAs($admin)
@@ -27,7 +27,7 @@ class AdminEventsTest extends TestCase
     function non_admin_users_cannot_visit_the_admin_events_page()
     {
         $user = factory(User::class)->create([
-            'admin'
+            'role' => 'client'
         ]);
 
         $this->actingAs($user)
