@@ -3,9 +3,8 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Auth\Access\AuthorizationException;
 
-class Admin
+class Sales
 {
     /**
      * Handle an incoming request.
@@ -16,7 +15,7 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-        if (! auth()->user()->isAdmin()) {
+        if (! (auth()->user()->isSeller() || auth()->user()->isAdmin()) ) {
             throw new \Illuminate\Auth\Access\AuthorizationException;
         }
 
