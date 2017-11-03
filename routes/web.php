@@ -11,8 +11,6 @@
 |
 */
 
-use Symfony\Component\HttpFoundation\Response;
-
 Route::get('/', function () {
     return view('welcome');
 });

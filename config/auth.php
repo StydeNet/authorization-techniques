@@ -36,15 +36,21 @@ return [
     */
 
     'guards' => [
+        //TODO: rename to user?
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
         ],
 
-        'api' => [
-            'driver' => 'token',
-            'provider' => 'users',
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
         ],
+
+//        'api' => [
+//            'driver' => 'token',
+//            'provider' => 'users',
+//        ],
     ],
 
     /*
@@ -68,6 +74,11 @@ return [
         'users' => [
             'driver' => 'eloquent',
             'model' => App\User::class,
+        ],
+
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Admin::class,
         ],
 
         // 'users' => [

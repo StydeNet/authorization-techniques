@@ -14,6 +14,6 @@ class Admin extends Model implements AuthenticatableContract, AuthorizableContra
 
     public function isAdmin()
     {
-        return $this->admin;
+        return true;
     }
 }

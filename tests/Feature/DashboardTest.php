@@ -13,9 +13,9 @@ class DashboardTest extends TestCase
     /** @test */
     function it_shows_the_dashboard_page_to_authenticated_users()
     {
-        $user = factory(User::class)->create();
+        $this->withoutExceptionHandling();
 
-        $this->actingAs($user)
+        $this->actingAsUser()
             ->get(route('home'))
             ->assertStatus(200)
             ->assertSee('Dashboard');

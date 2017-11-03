@@ -13,7 +13,7 @@ class AdminEventsTest extends TestCase
     /** @test */
     function admins_can_visit_the_admin_events_page()
     {
-        $this->actingAs($this->createAdmin())
+        $this->actingAsAdmin()
             ->get(route('admin_events'))
             ->assertStatus(200)
             ->assertSee('Admin Events');
@@ -22,9 +22,10 @@ class AdminEventsTest extends TestCase
     /** @test */
     function non_admin_users_cannot_visit_the_admin_events_page()
     {
-        $this->actingAs($this->createUser())
+        $this->actingAsUser()
             ->get(route('admin_events'))
-            ->assertStatus(403);
+            ->assertStatus(302)
+            ->assertRedirect('login');
     }
 
     /** @test */
