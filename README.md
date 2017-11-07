@@ -25,6 +25,10 @@ automatizadas con PHPUnit y TDD según convenga.
 5. [Refactorizando a grupos de rutas](https://styde.net/refactorizando-a-grupos-de-rutas-en-laravel/) - 12:50
 6. [Prevenir que usuarios no autorizados descubran URLs y módulos](https://styde.net/prevenir-que-usuarios-no-autorizados-descubran-las-urls-y-modulos-del-administrador/) - 15:55
 7. [Separando la lógica de autorización de nuestras vistas y base de datos](https://styde.net/separando-la-logica-de-autorizacion-de-nuestras-vistas-y-base-de-datos/) - 13:35
+8. [Modelo, Model Factory y tabla de administradores](https://styde.net/autenticacion-multiple-parte-1-modelo-model-factory-y-tabla-de-administradores/) - 12:00
+9. [Driver de autenticación para administradores](https://styde.net/autenticacion-multiple-parte-2-driver-de-autenticacion-para-administradores/) - 15:50
+10. [Login para administradores](https://styde.net/autenticacion-multiple-parte-3-login-para-administradores/) - 23:50
+11. [Redirecciones](https://styde.net/autenticacion-multiple-parte-4-redirecciones/) - 15:50
 
 ### En Styde.net también puedes aprender a:
 
