@@ -25,7 +25,7 @@ class AdminEventsTest extends TestCase
         $this->actingAsUser()
             ->get(route('admin_events'))
             ->assertStatus(302)
-            ->assertRedirect('login');
+            ->assertRedirect('admin/login');
     }
 
     /** @test */
@@ -33,6 +33,6 @@ class AdminEventsTest extends TestCase
     {
         $this->get(route('admin_events'))
             ->assertStatus(302)
-            ->assertRedirect('login');
+            ->assertRedirect('admin/login');
     }
 }

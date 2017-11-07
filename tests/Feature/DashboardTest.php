@@ -20,6 +20,17 @@ class DashboardTest extends TestCase
             ->assertStatus(200)
             ->assertSee('Dashboard');
     }
+
+    /** @test */
+    function it_shows_the_dashboard_page_to_admins()
+    {
+        $this->withoutExceptionHandling();
+
+        $this->actingAsAdmin()
+            ->get(route('home'))
+            ->assertStatus(200)
+            ->assertSee('Dashboard');
+    }
     
     /** @test */
     function it_redirects_guest_users_to_the_login_page()
