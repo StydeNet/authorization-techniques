@@ -18,6 +18,8 @@ automatizadas con PHPUnit y TDD según convenga.
 
 ## Lecciones
 
+### Autorización simple
+
 1. [Restricción de acceso con el Middleware Authenticate](https://styde.net/restriccion-de-acceso-a-usuarios-no-conectados-con-el-middleware-authenticate/) - 11:45
 2. [Comprobando la seguridad de forma automatizada](https://styde.net/comprobando-la-seguridad-de-nuestra-aplicacion-de-forma-automatizada-phpunit/) - 5:45
 3. [Definiendo el rol de acceso de administrador con TDD](https://styde.net/definiendo-el-rol-de-acceso-de-administrador-con-tdd-en-laravel/) - 11:20
@@ -25,10 +27,14 @@ automatizadas con PHPUnit y TDD según convenga.
 5. [Refactorizando a grupos de rutas](https://styde.net/refactorizando-a-grupos-de-rutas-en-laravel/) - 12:50
 6. [Prevenir que usuarios no autorizados descubran URLs y módulos](https://styde.net/prevenir-que-usuarios-no-autorizados-descubran-las-urls-y-modulos-del-administrador/) - 15:55
 7. [Separando la lógica de autorización de nuestras vistas y base de datos](https://styde.net/separando-la-logica-de-autorizacion-de-nuestras-vistas-y-base-de-datos/) - 13:35
+
+### Autorización con autenticación múltiple
+
 8. [Modelo, Model Factory y tabla de administradores](https://styde.net/autenticacion-multiple-parte-1-modelo-model-factory-y-tabla-de-administradores/) - 12:00
 9. [Driver de autenticación para administradores](https://styde.net/autenticacion-multiple-parte-2-driver-de-autenticacion-para-administradores/) - 15:50
 10. [Login para administradores](https://styde.net/autenticacion-multiple-parte-3-login-para-administradores/) - 23:50
 11. [Redirecciones](https://styde.net/autenticacion-multiple-parte-4-redirecciones/) - 15:50
+12. [Cierre de sesión](https://styde.net/cierre-de-sesion-con-autenticacion-multiple-en-laravel-con-tdd/) - 18:10
 
 ### En Styde.net también puedes aprender a:
 
